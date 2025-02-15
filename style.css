@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-image: url('https://img.freepik.com/vector-gratis/patron-corazon-amor-romantico-valentines-papel-embalaje-impresion_1017-49811.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+    overflow: hidden;
+}
+
+.contenedor {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.mensaje p {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.botones button {
+    font-size: 1.5rem;
+    padding: 15px 30px;
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+    background-color: #4CAF50;
+    color: white;
+}
+
+.botones button:hover {
+    transform: scale(1.1);
+}
+
+#noBtn {
+    background-color: #f44336;
+}
+
+#yesBtn {
+    background-color: #4CAF50;
+}

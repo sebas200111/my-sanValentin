@@ -1,0 +1,55 @@
+body {
+    background-image: url('https://data.1freewallpapers.com/download/hearts-frame-love-red-1600x900.jpg');
+    display: flex;
+    flex-direction: column;  /* Asegura que todo quede bien alineado */
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;  /* Evita problemas en pantallas pequeñas */
+    color: white;
+    overflow: hidden;
+}
+
+.contenedor-exito {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    width: 60%;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    transition: transform 0.3s ease-in-out;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+
+/* Ajustes para pantallas más pequeñas */
+@media (max-width: 600px) {
+    .gif-abajo {
+        width: 90px;  /* Tamaño más pequeño en móviles */
+        bottom: 5px;  /* Lo subimos un poco más */
+    }
+}
+
+
