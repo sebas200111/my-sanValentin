@@ -3,7 +3,7 @@ const noBtn = document.querySelector('#noBtn');
 
 let timer = setTimeout(() => {
     window.location.href = 'error.html'; // Redirigir después de 1 minuto
-}, 20000);
+}, 10000);
 
 // Función para mover el botón "No"
 function moveNoBtn() {
